@@ -29,6 +29,8 @@ body {
   list-style: none;
   text-decoration: none;
   color: #ffffff;
+  -webkit-transition: 420ms;
+  transition: 420ms;
 }
 
 .nav-bar a:hover {
@@ -69,8 +71,8 @@ body {
 }
 
 .main-text {
-  -webkit-animation: text_animation ease  2s;
-          animation: text_animation ease  2s;
+  -webkit-animation: text_animation ease 2s;
+          animation: text_animation ease 2s;
 }
 
 .main-text h1 {
@@ -101,10 +103,13 @@ button {
   border: 1px solid white;
   border-radius: 30px;
   margin: 0px 40px 0px 20px;
+  -webkit-transition: 920ms;
+  transition: 920ms;
 }
 
 button:hover {
-  background-color: black;
+  color: black;
+  background-color: plum;
 }
 
 @-webkit-keyframes text_animation {
