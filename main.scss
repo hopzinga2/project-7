@@ -29,7 +29,6 @@ $sign-hover: #000000;
 
 .nav-bar{
 
-
     display: flex;
     justify-content: space-around;
 }   
@@ -39,6 +38,7 @@ $sign-hover: #000000;
     list-style: none;
     text-decoration: none;
     color: $var-color;
+    transition: 420ms;
 }
 
 .nav-bar a:hover{
@@ -90,7 +90,7 @@ $sign-hover: #000000;
 
 .main-text{
 
-    animation: text_animation ease  2s;
+    animation: text_animation ease 2s;
 
 }
 
@@ -127,12 +127,14 @@ button{
     border: 1px solid white;
     border-radius: 30px;
     margin: 0px 40px 0px 20px;
+    transition: 920ms;
 
 }
 
 button:hover{
 
-    background-color: black;
+    color: black;
+    background-color: plum;
 }
 
 
