@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    background-image: url(img/meditation..jpg);
+    background-size: cover;
+
+}
+
+// Variables
+
+$var-color: #ffffff;
+$hover-color: #2f3542;
+$border-color: #f1f2f6;
+$sign-hover: #000000;
+
+.parent-container{
+
+    color: $var-color;
+    margin: 20px;
+}
+
+.nav-bar{
+
+
+    display: flex;
+    justify-content: space-around;
+}   
+
+.nav-bar a{
+
+    list-style: none;
+    text-decoration: none;
+    color: $var-color;
+}
+
+.nav-bar a:hover{
+
+    color: $hover-color;
+
+}
+
+#sign{
+
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.4);
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+}
+
+#sign:hover{
+
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 1px solid $hover-color;
+
+}
+
+
+#logo{
+
+    width: 10%;
+    padding-right: 560px;
+
+}
+
+#logo:hover{
+
+    color: black;
+
+}
+
+.main-content{
+
+    width: 60%;
+    height: 35vh;
+     color: #ffffff;
+    // background-color: black;
+    margin: 250px 0px 0px 50px;
+}
+
+.main-text{
+
+    animation: text_animation ease  2s;
+
+}
+
+.main-text h1{
+
+    font-weight: 500;
+    font-size: 3rem;
+    margin: 20px;
+    line-height: 50px;
+
+}
+
+.main-text p{
+
+    line-height: 35px;
+    margin: 20px;
+}
+
+.cta{
+
+    display: flex;
+    margin: 30px;
+    // padding: 0px 440px 0px 0px;
+    // justify-content: space-evenly;
+
+}
+
+button{
+
+    color: white;
+    padding: 20px 70px 20px 70px;
+    align-content: center;
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: 0px 40px 0px 20px;
+
+}
+
+button:hover{
+
+    background-color: black;
+}
+
+
+@keyframes text_animation {
+    
+    from{
+
+        transform: translateY(-50px);
+        opacity: 0.5;
+    }
+    to{
+
+        transform: translateY(0px);
+        opacity: 1;
+
+    }
+}
